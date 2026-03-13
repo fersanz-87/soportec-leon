@@ -9,7 +9,7 @@ export default function Services() {
             Nuestros Servicios
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-gray-600">
-            Soluciones completas para tus equipos de impresión y copiado
+            Soluciones completas para tus equipos de impresión, copiado, cómputo y telefonía
           </p>
         </div>
 

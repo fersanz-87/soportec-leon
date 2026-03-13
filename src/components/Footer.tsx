@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <footer className="bg-primary-dark py-12 text-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2">
           <div>
             <div className="mb-3 flex items-center gap-2">
               <span className="text-2xl" role="img" aria-label="Impresora">
@@ -36,7 +36,7 @@ export default function Footer() {
           <div>
             <h3 className="mb-3 font-bold text-white/90">Navegación</h3>
             <nav aria-label="Navegación del footer">
-              <ul className="space-y-2">
+              <ul className="flex flex-wrap gap-x-6 gap-y-2">
                 {navLinks.map((link) => (
                   <li key={link.href}>
                     <a
@@ -50,33 +50,6 @@ export default function Footer() {
               </ul>
             </nav>
           </div>
-
-          <div>
-            <h3 className="mb-3 font-bold text-white/90">Síguenos</h3>
-            <div className="flex gap-4">
-              <a
-                href={siteConfig.socialMedia.facebook}
-                className="text-white/60 transition-colors hover:text-white"
-                aria-label="Facebook"
-              >
-                Facebook
-              </a>
-              <a
-                href={siteConfig.socialMedia.whatsapp}
-                className="text-white/60 transition-colors hover:text-white"
-                aria-label="WhatsApp"
-              >
-                WhatsApp
-              </a>
-              <a
-                href={siteConfig.socialMedia.instagram}
-                className="text-white/60 transition-colors hover:text-white"
-                aria-label="Instagram"
-              >
-                Instagram
-              </a>
-            </div>
-          </div>
         </div>
 
         <div className="mt-10 border-t border-white/10 pt-6">
@@ -89,6 +62,17 @@ export default function Footer() {
           <p className="mt-3 text-xs text-white/40">
             &copy; {currentYear} {siteConfig.name}. Todos los derechos
             reservados.
+          </p>
+          <p className="mt-4 text-center text-sm tracking-wide text-white/40">
+            Desarrollado por{" "}
+            <a
+              href="https://fersanz.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-white/70 transition-colors hover:text-white"
+            >
+              Fer Sanz Web Development
+            </a>
           </p>
         </div>
       </div>

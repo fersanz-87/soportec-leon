@@ -49,11 +49,32 @@ export const services: Service[] = [
       "Tóner, cartuchos, tambores, fusores, rodillos y refacciones originales y compatibles.",
   },
   {
-    id: "configuracion-red",
-    icon: "📡",
-    title: "Configuración de red",
+    id: "venta-consumibles",
+    icon: "🛒",
+    title: "Venta de consumibles",
     description:
-      "Instalación y configuración de impresoras en red, WiFi, servidores de impresión y escáneres compartidos.",
+      "Tóner y cartuchos para impresión de todas las marcas. Originales y compatibles con entrega inmediata.",
+  },
+  {
+    id: "reparacion-equipos-oficina",
+    icon: "💻",
+    title: "Reparación de equipos de oficina",
+    description:
+      "Diagnóstico y reparación de computadoras de escritorio y laptops. Mantenimiento preventivo y correctivo.",
+  },
+  {
+    id: "venta-renta-equipos-copiado",
+    icon: "🏢",
+    title: "Venta y renta de equipos de copiado",
+    description:
+      "Equipos de bajo, medio y alto volumen en blanco y negro y color. Opciones de compra y arrendamiento para tu negocio.",
+  },
+  {
+    id: "reparacion-celulares",
+    icon: "📱",
+    title: "Reparación de celulares",
+    description:
+      "Reparación de pantallas, baterías, conectores y software. Todas las marcas y modelos.",
   },
   {
     id: "servicio-domicilio",
